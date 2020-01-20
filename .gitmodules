@@ -7,3 +7,12 @@
 [submodule "submodules/python-resources-2019"]
 	path = submodules/python-resources-2019
 	url = https://github.com/stephenh67/python-resources-2019.git
+[submodule "submodules/python-cheatsheet"]
+	path = submodules/python-cheatsheet
+	url = https://github.com/gto76/python-cheatsheet.git
+[submodule "submodules/pysheeet"]
+	path = submodules/pysheeet
+	url = https://github.com/crazyguitar/pysheeet.git
+[submodule "submodules/python_koans"]
+	path = submodules/python_koans
+	url = https://github.com/gregmalcolm/python_koans.git
