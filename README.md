@@ -13,4 +13,5 @@ All repositories listed here can be found in the `submodule` directory. They are
 - [Python-Resources-2019](https://github.com/stephenh67/python-resources-2019): A curated list of Python 3 resources, books, websites, tutorials, code challenges.
 - [Source code for The Quick Python Book, 3rd Edition](https://github.com/nceder/qpbe3e)
 - [Python programming tutorial](https://github.com/Akuli/python-tutorial): This is a concise Python 3 programming tutorial for people who think that reading is boring. 
+- [Python Koans](https://github.com/gregmalcolm/python_koans): Python Koans is an interactive tutorial for learning the Python programming language by making tests pass.
 
