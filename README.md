@@ -3,6 +3,13 @@
 ## The Book
 This course is based on the book [The Quick Python Book, 3rd Edition](https://www.manning.com/books/the-quick-python-book-third-edition). Most of the source code is taken from there, if not stated otherwise.
 
+## Where to find what
+
+- [Exercises](exercises): Here you will find the exercises (and&mdash;if available&mdash;solutions) for this course
+- [Notebooks](nb): Here you will find the notebooks that contain the learning material
+- [Projects](projects): Here you will find the project ideas we are going to code in this course
+- [Submodules](submodules): Here you will find other projects and repositories that we will use during the course
+
 ## Submodules
 
 All repositories listed here can be found in the `submodule` directory. They are part of this course in form of git submodules and point to the corresponding GitHub repositories of their project owners
