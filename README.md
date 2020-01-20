@@ -5,6 +5,7 @@ This course is based on the book [The Quick Python Book, 3rd Edition](https://ww
 
 ## Where to find what
 
+- [Data](data): Here you will find the data for the notebooks, exercises and projects
 - [Exercises](exercises): Here you will find the exercises (and&mdash;if available&mdash;solutions) for this course
 - [Notebooks](nb): Here you will find the notebooks that contain the learning material
 - [Projects](projects): Here you will find the project ideas we are going to code in this course
