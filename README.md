@@ -15,11 +15,11 @@ This course is based on the book [The Quick Python Book, 3rd Edition](https://ww
 
 All repositories listed here can be found in the `submodule` directory. They are part of this course in form of git submodules and point to the corresponding GitHub repositories of their project owners
 
-- [Comprehensive Python Cheatsheet](https://github.com/gto76/python-cheatsheet)
 - [Basic Cheat Sheet for Python](https://github.com/wilfredinni/python-cheatsheet) (PDF, Markdown and Jupyter Notebook)
+- [Comprehensive Python Cheatsheet](https://github.com/gto76/python-cheatsheet)
+- [Effective Python](https://github.com/bslatkin/effectivepython): You've reached the official source code repository for Effective Python: Second Edition. To learn more about the book or contact the author, please visit the [official website](https://effectivepython.com/).
 - [Pysheeet](https://www.pythonsheets.com/): This project aims at collecting useful Python snippets in order to enhance pythoneers’ coding experiences.
+- [Python Koans](https://github.com/gregmalcolm/python_koans): Python Koans is an interactive tutorial for learning the Python programming language by making tests pass.
+- [Python programming tutorial](https://github.com/Akuli/python-tutorial): This is a concise Python 3 programming tutorial for people who think that reading is boring. 
 - [Python-Resources-2019](https://github.com/stephenh67/python-resources-2019): A curated list of Python 3 resources, books, websites, tutorials, code challenges.
 - [Source code for The Quick Python Book, 3rd Edition](https://github.com/nceder/qpbe3e)
-- [Python programming tutorial](https://github.com/Akuli/python-tutorial): This is a concise Python 3 programming tutorial for people who think that reading is boring. 
-- [Python Koans](https://github.com/gregmalcolm/python_koans): Python Koans is an interactive tutorial for learning the Python programming language by making tests pass.
-

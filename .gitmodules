@@ -16,3 +16,6 @@
 [submodule "submodules/python_koans"]
 	path = submodules/python_koans
 	url = https://github.com/gregmalcolm/python_koans.git
+[submodule "submodules/effectivepython"]
+	path = submodules/effectivepython
+	url = https://github.com/bslatkin/effectivepython.git
