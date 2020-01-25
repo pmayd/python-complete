@@ -14,10 +14,18 @@ def median(pool):
     >>> l 
     [3, 1, 2]
     '''
-    median = None
+    copy = pool.copy() # also possible: pool[:]
+    copy = sorted(copy) 
+    size = len(copy)
+
+    if size % 2 == 1:
+        median = copy[size // 2] # integer division without rest
+    else:
+        median = (copy[size // 2] + copy[size // 2 - 1]) / 2 # or sum(copy[size // 2 - 1 : size // 2 + 1]) / 2
 
     return median
         
+
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
