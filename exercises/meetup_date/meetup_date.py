@@ -11,7 +11,7 @@ def meetup_date(
 
     The meetup is on the fourth Thrusday of the month
 
-    Exercise:
+    Exmaples:
     >>> meetup_date(2012, 3)
     datetime.date(2012, 3, 22)
     >>> meetup_date(2015, 2)
