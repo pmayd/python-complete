@@ -8,6 +8,8 @@ Because this repo makes use of git submodules, please clone with the following c
 $ git clone --recurse-submodules https://github.com/pmayd/python-complete.git 
 ```
 
+Read more about submodules [here](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+
 ## The Book
 
 This course is based on the book [The Quick Python Book, 3rd Edition](https://www.manning.com/books/the-quick-python-book-third-edition). Most of the source code is taken from there, if not stated otherwise.
