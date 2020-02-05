@@ -15,6 +15,7 @@ def extract_toc_from_md(markdown: str) -> list:
 
     return toc
 
+
 if __name__ == "__main__":
     with open(r'C:\Users\micha\work\git\python-complete\data\TEST.md', 'r', encoding='utf-8') as f:
         md = f.read()
