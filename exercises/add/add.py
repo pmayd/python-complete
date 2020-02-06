@@ -1,6 +1,6 @@
 import doctest
 
-def add((matrix1: list, matrix2: list)) -> list:
+def add(matrix1: list, matrix2: list) -> list:
     """add two matrices elementwise
 
     Example:

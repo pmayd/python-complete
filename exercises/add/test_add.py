@@ -1,7 +1,3 @@
-import sys
-from pathlib import Path
-sys.path.append(str(Path(__file__).parent.parent.joinpath('add')))
-
 from copy import deepcopy
 import unittest
 
@@ -37,7 +33,7 @@ class AddTests(unittest.TestCase):
         self.assertEqual(m2, m2_original)
 
     # To test the Bonus part of this exercise, comment out the following line
-    #@unittest.expectedFailure
+    @unittest.expectedFailure
     def test_any_number_of_matrixes(self):
         m1 = [[6, 6], [3, 1]]
         m2 = [[1, 2], [3, 4]]
@@ -48,7 +44,7 @@ class AddTests(unittest.TestCase):
         self.assertEqual(add(m2, m3, m1, m1, m2, m4, m1), m5)
 
     # To test the Bonus part of this exercise, comment out the following line
-    #@unittest.expectedFailure
+    @unittest.expectedFailure
     def test_different_matrix_size(self):
         m1 = [[6, 6], [3, 1]]
         m2 = [[1, 2], [3, 4], [5, 6]]
