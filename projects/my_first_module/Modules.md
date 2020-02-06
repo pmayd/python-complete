@@ -397,3 +397,42 @@ max(a, b, c, ...[, key=func]) -> value
 With a single iterable argument, return its largest item.
 With two or more arguments, return the largest argument.
 ```
+
+## Distributing Python applications
+
+### Wheels packages
+
+The current standard way of packaging and distributing Python modules and applications is to use packages called wheels. Wheels are designed to make installing Python code more reliable and to help manage dependencies. The details of how to create wheels are beyond the scope of this chapter, but full details about the requirements and the process for creating wheels are in the Python Packaging User Guide at https://packaging.python.org. 
+
+### zipapp and pex
+
+If you have an application that’s in multiple modules, you can also distribute it as an executable zip file. This format relies on two facts about Python.
+
+First, if a zip file contains a file named `__main__.py`, Python can use that file as the entry point to the archive and execute the `__main__.py` file directly. In addition, the zip file’s contents are added to sys.path, so they’re available to be imported and executed by `__main__.py`.
+
+Second, zip files allow arbitrary contents to be added to the beginning of the archive. If you add a shebang line pointing to a Python interpreter, such as `#!/usr/bin/env python3`, and give the file the needed permissions, the file can become a self-contained executable.
+
+In fact, it’s not that difficult to manually create an executable zipapp. Create a zip file containing a `__main__.py`, add the shebang line to the beginning, and set the permissions.
+
+Starting with Python 3.5, the `zipapp` module is included in the standard library; it can create zipapps either from the command line or via the library’s API.
+
+A more powerful tool, pex, isn’t in the standard library but is available from the package index via pip. pex does the same basic job but offers many more features and options, and it’s available for Python 2.7, if needed. Either way, zip file apps are convenient ways to package and distribute multifile Python apps ready to run.
+
+You can try this out by creating a zipapp of my_first_module with the following command:
+
+```bash
+$ python -m zipapp my_first_module -m n2w:main
+```
+
+### py2exe and py2app
+
+Although it’s not the purpose of this book to dwell on platform-specific tools, it’s worth mentioning that `py2exe` creates standalone Windows programs and that `py2app` does the same on the macOS platform. By standalone, I mean that they’re single executables that can run on machines that don’t have Python installed. In many ways, standalone executables aren’t ideal, because they tend to be larger and less flexible than native Python applications. But in some situations, they’re the best—and sometimes the only—solution.
+
+### Creating executable programs with freeze
+
+It’s also possible to create an executable Python program that runs on machines that don’t have Python installed by using the `freeze` tool. You’ll find the instructions for this in the Readme file inside the freeze directory in the Tools subdirectory of the Python source directory. If you’re planning to use freeze, you’ll probably need to download the Python source distribution.
+
+In the process of “freezing” a Python program, you create C files, which are then compiled and linked using a C compiler, which you need to have installed on your system. The frozen application will run only on the platform for which the C compiler you use provides its executables.
+
+Several other tools try in one way or another to convert and package a Python interpreter/environment with an application in a standalone application. In general, however, this path is still difficult and complex, and you probably want to avoid it unless you have a strong need and the time and resources to make the process work.
+
