@@ -49,3 +49,21 @@ After a lot of reading, coding and learning new stuff, there has to be time for 
 
 - [Python Quizzes](https://realpython.com/quizzes/)
 - [Programiz Python Quiz](https://www.programiz.com/python-programming/quiz)
+
+## Additional resources
+
+- [Code Style](https://docs.python-guide.org/writing/style/)
+- [Structuring Your Project](https://docs.python-guide.org/writing/structure/)
+- [Testing Your Code](https://docs.python-guide.org/writing/tests/)
+- [Logging](https://docs.python-guide.org/writing/logging/)
+- [Project Documentation](https://docs.python-guide.org/writing/documentation/)
+
+## Recommendations
+
+- [Effective Python: 90 Specific Ways to Write Better Python, 2nd Edition](https://learning.oreilly.com/library/view/effective-python-90/9780134854717/)
+- [Serious Python](https://learning.oreilly.com/library/view/serious-python/9781492071211/)
+- [Fluent Python](https://learning.oreilly.com/library/view/fluent-python/9781491946237/)
+- [Automate the Boring Stuff with Python, 2nd Edition](https://nostarch.com/automatestuff2)
+- [The Well-Grounded Python Developer](https://www.manning.com/books/the-well-grounded-python-developer?query=python)
+- [Practices of the Python Pro](https://www.manning.com/books/practices-of-the-python-pro?query=python)
+- [Tiny Python Projects](https://www.manning.com/books/tiny-python-projects?query=python)
