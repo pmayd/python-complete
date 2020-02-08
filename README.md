@@ -57,6 +57,9 @@ After a lot of reading, coding and learning new stuff, there has to be time for 
 - [Testing Your Code](https://docs.python-guide.org/writing/tests/)
 - [Logging](https://docs.python-guide.org/writing/logging/)
 - [Project Documentation](https://docs.python-guide.org/writing/documentation/)
+- [Dunder Methods](https://dbader.org/blog/python-dunder-methods)
+- [Operator and Function Overloading](https://realpython.com/operator-function-overloading/)
+- [Python Data Model](https://docs.python.org/3/reference/datamodel.html)
 
 ## Recommendations
 
