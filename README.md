@@ -5,7 +5,7 @@
 Because this repo makes use of git submodules, please clone with the following command:
 
 ```bash
-$ git clone --recurse-submodules https://github.com/pmayd/python-complete.git 
+$ git clone --recurse-submodules https://github.com/pmayd/python-complete.git
 ```
 
 Read more about submodules [here](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
@@ -41,7 +41,7 @@ The exercises are taken from many sources, but here is a list of the most import
 
 - [Python moersels](https://www.pythonmorsels.com/) by Trey Hunner. Sign up for Python Morsels and I'll send you 1 short Python exercise every week. After you attempt to work through the exercise, I'll send you a number of solutions to the exercise with explanations of each one. You'll study these solutions and attempt to re-solve the problem in more Pythonic ways. Great! The first 4 Python Morsels exercises are free and you don't need to enter payment information to sign up.
 - [Python Workout](https://www.manning.com/books/python-workout) by Reuven M. Lerner. 50 Essential Exercises. The only way to master a skill is to practice. In Python Workout, author Reuven M. Lerner guides you through 50 carefully selected exercises that invite you to flex your programming muscles.
-- [PyBites](https://codechalleng.es/): The best way to learn to code in Python is to actually use the language. Our platform offers effective Test-Driven Learning which will be key to your progress. 
+- [PyBites](https://codechalleng.es/): The best way to learn to code in Python is to actually use the language. Our platform offers effective Test-Driven Learning which will be key to your progress.
 
 ## Quizzes
 
