@@ -1,7 +1,7 @@
 import doctest
 
 
-def most_repeating_word():
+def most_repeating_word(words: list) -> str:
     """
     Write a function, most_repeating_word, that takes a sequence of strings as input. The function should return the string that contains the greatest number of repeated letters. In other words:
 
